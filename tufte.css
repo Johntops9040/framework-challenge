@@ -448,4 +448,9 @@ label.margin-toggle:not(.sidenote-number) {
     img {
         width: 100%;
     }
+    input{
+        width: 100%;
+        border-radius: 5px;
+    }
+
 }
