@@ -39,6 +39,17 @@
     font-display: swap;
 }
 
+img {
+    width: 100%;
+}
+input{
+    width: 80%;
+    border-radius: 5px;
+}
+form{
+    text-align: center;
+}
+
 /* Tufte CSS styles */
 html {
     font-size: 15px;
@@ -236,7 +247,7 @@ a:visited {
 
 /* Sidenotes, margin notes, figures, captions */
 img {
-    max-width: 80%;
+    max-width: 100%;
     
 }
 
@@ -446,15 +457,5 @@ label.margin-toggle:not(.sidenote-number) {
         width: 85%;
     }
 
-    img {
-        width: 100%;
-    }
-    input{
-        width: 80%;
-        border-radius: 5px;
-    }
-    form{
-        text-align: center;
-    }
 
 }
